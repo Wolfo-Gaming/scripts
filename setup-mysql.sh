@@ -123,5 +123,5 @@ collation-server      = utf8mb4_general_ci
 [mariadb-10.3]
 EOT
 rm /etc/mysql/mariadb.conf.d/50-server.cnf
-copy ./cnf.tmp /etc/mysql/mariadb.conf.d/50-server.cnf
+cp ./cnf.tmp /etc/mysql/mariadb.conf.d/50-server.cnf
 systemctl restart mysqld
