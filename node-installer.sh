@@ -8,8 +8,8 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-User=prometheus
-ExecStart=/home/prometheus/node_exporter/node_exporter
+User=root
+ExecStart=/root/node_exporter/node_exporter
 
 [Install]
 WantedBy=default.target
