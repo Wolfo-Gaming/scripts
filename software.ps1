@@ -1,5 +1,4 @@
 choco install firefox -y
-choco install nodejs-lts -y
 choco install discord -y
 choco install vscode -y
 choco install steam -y
@@ -11,3 +10,4 @@ choco install powertoys -y
 choco install sharex -y
 choco install winscp -y
 choco install wireguard -y
+choco install nvm -y
