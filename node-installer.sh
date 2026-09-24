@@ -10,7 +10,7 @@ After=network-online.target
 
 [Service]
 User=root
-ExecStart=/root/node_exporter/node_exporter
+ExecStart=/node_exporter/node_exporter
 
 [Install]
 WantedBy=default.target
